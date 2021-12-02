@@ -12,7 +12,7 @@ namespace AdventoOfCode2021.Puzzles
         
         public PuzzlesDay1()
         {
-            string[] measuresFile = System.IO.File.ReadAllLines(@"./Inputs/InputPuzzle1.txt");
+            string[] measuresFile = System.IO.File.ReadAllLines(@"./Inputs/InputPuzzlesDay1.txt");
             _input = Array.ConvertAll(measuresFile, s => int.Parse(s));
         }
 

@@ -8,4 +8,4 @@ Console.WriteLine("\tPuzzle Day 1 Part 2: " + puzzlesDay1.getNumberOfTimesTheSum
 
 PuzzlesDay2 puzzlesDay2 = new PuzzlesDay2();
 Console.WriteLine("\n\tPuzzle Day 2 Part 1: " + puzzlesDay2.getFinalPosition());
-Console.WriteLine("\n\tPuzzle Day 2 Part 2: " + puzzlesDay2.getFinalPositionWithAim());
+Console.WriteLine("\tPuzzle Day 2 Part 2: " + puzzlesDay2.getFinalPositionWithAim());

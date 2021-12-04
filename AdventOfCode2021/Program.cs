@@ -9,3 +9,7 @@ Console.WriteLine("\tPuzzle Day 1 Part 2: " + puzzlesDay1.getNumberOfTimesTheSum
 PuzzlesDay2 puzzlesDay2 = new PuzzlesDay2();
 Console.WriteLine("\n\tPuzzle Day 2 Part 1: " + puzzlesDay2.getFinalPosition());
 Console.WriteLine("\tPuzzle Day 2 Part 2: " + puzzlesDay2.getFinalPositionWithAim());
+
+PuzzlesDay3 puzzlesDay3 = new PuzzlesDay3();
+Console.WriteLine("\n\tPuzzle Day 3 Part 1: " + puzzlesDay3.getPowerConsumption());
+Console.WriteLine("\tPuzzle Day 3 Part 2: " + puzzlesDay3.getLifeSupportRating());

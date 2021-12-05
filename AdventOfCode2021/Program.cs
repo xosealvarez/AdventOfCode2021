@@ -13,3 +13,7 @@ Console.WriteLine("\tPuzzle Day 2 Part 2: " + puzzlesDay2.getFinalPositionWithAi
 PuzzlesDay3 puzzlesDay3 = new PuzzlesDay3();
 Console.WriteLine("\n\tPuzzle Day 3 Part 1: " + puzzlesDay3.getPowerConsumption());
 Console.WriteLine("\tPuzzle Day 3 Part 2: " + puzzlesDay3.getLifeSupportRating());
+
+PuzzlesDay4 puzzlesDay4 = new PuzzlesDay4();
+Console.WriteLine("\n\tPuzzle Day 4 Part 1: " + puzzlesDay4.GetFirstCardBingo());
+Console.WriteLine("\tPuzzle Day 4 Part 2: " + puzzlesDay4.GetLastCardBingo());

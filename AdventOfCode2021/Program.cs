@@ -21,3 +21,7 @@ Console.WriteLine("\tPuzzle Day 4 Part 2: " + puzzlesDay4.GetLastCardBingo());
 PuzzlesDay5 puzzlesDay5 = new PuzzlesDay5();
 Console.WriteLine("\n\tPuzzle Day 5 Part 1: " + puzzlesDay5.GetNumPointsOverlaped());
 Console.WriteLine("\tPuzzle Day 5 Part 2: " + puzzlesDay5.GetNumPointsOverlapedWithDiagonals());
+
+PuzzlesDay6 puzzlesDay6 = new PuzzlesDay6();
+Console.WriteLine("\n\tPuzzle Day 6 Part 1: " + puzzlesDay6.GetNumOfLanterfishAfter80Days());
+Console.WriteLine("\tPuzzle Day 6 Part 2: " + puzzlesDay6.GetNumOfLanterfishAfter256Days());

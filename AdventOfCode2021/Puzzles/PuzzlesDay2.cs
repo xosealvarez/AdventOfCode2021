@@ -10,12 +10,12 @@ namespace AdventoOfCode2021.Puzzles
     {
         private readonly string[] _input;
         
-        public PuzzlesDay2()
+        public PuzzlesDay2(string inputFilePath)
         {
-            _input = System.IO.File.ReadAllLines(@"./Inputs/InputPuzzlesDay2.txt");
+            _input = System.IO.File.ReadAllLines(inputFilePath);
         }
 
-        public string getFinalPosition()
+        public int getFinalPosition()
         {
             int horizontalPosition = 0;
             int depthPosition = 0;
@@ -39,10 +39,10 @@ namespace AdventoOfCode2021.Puzzles
 
             }
 
-            return (horizontalPosition*depthPosition) + "  (Horizontal: " + horizontalPosition + "; Depth: " + depthPosition + ")";
+            return horizontalPosition * depthPosition;
         }
 
-        public string getFinalPositionWithAim()
+        public int getFinalPositionWithAim()
         {
             int horizontalPosition = 0;
             int depthPosition = 0;
@@ -68,7 +68,7 @@ namespace AdventoOfCode2021.Puzzles
 
             }
 
-            return (horizontalPosition * depthPosition) + "  (Horizontal: " + horizontalPosition + "; Depth: " + depthPosition + ")";
+            return horizontalPosition * depthPosition;
         }
     }
 }

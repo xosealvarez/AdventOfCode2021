@@ -2,11 +2,11 @@
 
 Console.WriteLine("Advent of Code 2021");
 
-PuzzlesDay1 puzzlesDay1 = new PuzzlesDay1();
+PuzzlesDay1 puzzlesDay1 = new PuzzlesDay1(@"./Inputs/InputPuzzlesDay1.txt");
 Console.WriteLine("\tPuzzle Day 1 Part 1: " + puzzlesDay1.getNumberOfTimesDepthMeasurementIncrease());
 Console.WriteLine("\tPuzzle Day 1 Part 2: " + puzzlesDay1.getNumberOfTimesTheSumOfMeasurementInSlidingWindows());
 
-PuzzlesDay2 puzzlesDay2 = new PuzzlesDay2();
+PuzzlesDay2 puzzlesDay2 = new PuzzlesDay2(@"./Inputs/InputPuzzlesDay2.txt");
 Console.WriteLine("\n\tPuzzle Day 2 Part 1: " + puzzlesDay2.getFinalPosition());
 Console.WriteLine("\tPuzzle Day 2 Part 2: " + puzzlesDay2.getFinalPositionWithAim());
 

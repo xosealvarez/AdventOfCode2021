@@ -10,9 +10,9 @@ namespace AdventoOfCode2021.Puzzles
     {
         private readonly int[] _input;
         
-        public PuzzlesDay1()
+        public PuzzlesDay1(string inputFilePath)
         {
-            string[] measuresFile = System.IO.File.ReadAllLines(@"./Inputs/InputPuzzlesDay1.txt");
+            string[] measuresFile = System.IO.File.ReadAllLines(inputFilePath);
             _input = Array.ConvertAll(measuresFile, s => Convert.ToInt32(s));
         }
 
